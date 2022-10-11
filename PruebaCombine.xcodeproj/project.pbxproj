@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		876247C628F2E86100E927E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876247C528F2E86100E927E0 /* AppDelegate.swift */; };
 		876247C828F2E86100E927E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876247C728F2E86100E927E0 /* SceneDelegate.swift */; };
-		876247CA28F2E86100E927E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876247C928F2E86100E927E0 /* ViewController.swift */; };
-		876247CD28F2E86100E927E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876247CB28F2E86100E927E0 /* Main.storyboard */; };
 		876247CF28F2E86300E927E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876247CE28F2E86300E927E0 /* Assets.xcassets */; };
 		876247D228F2E86400E927E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876247D028F2E86400E927E0 /* LaunchScreen.storyboard */; };
 		876247DD28F2E86400E927E0 /* PruebaCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876247DC28F2E86400E927E0 /* PruebaCombineTests.swift */; };
 		876247E728F2E86400E927E0 /* PruebaCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876247E628F2E86400E927E0 /* PruebaCombineUITests.swift */; };
 		876247E928F2E86400E927E0 /* PruebaCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876247E828F2E86400E927E0 /* PruebaCombineUITestsLaunchTests.swift */; };
+		876247FE28F2F75700E927E0 /* PruebaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876247F928F2F75700E927E0 /* PruebaViewModel.swift */; };
+		876247FF28F2F75700E927E0 /* PruebaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876247FB28F2F75700E927E0 /* PruebaViewController.swift */; };
+		8762480028F2F75700E927E0 /* PruebaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876247FD28F2F75700E927E0 /* PruebaView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		876247C228F2E86100E927E0 /* PruebaCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		876247C528F2E86100E927E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		876247C728F2E86100E927E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		876247C928F2E86100E927E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		876247CC28F2E86100E927E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		876247CE28F2E86300E927E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		876247D128F2E86400E927E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		876247D328F2E86400E927E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		876247E228F2E86400E927E0 /* PruebaCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		876247E628F2E86400E927E0 /* PruebaCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaCombineUITests.swift; sourceTree = "<group>"; };
 		876247E828F2E86400E927E0 /* PruebaCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		876247F928F2F75700E927E0 /* PruebaViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PruebaViewModel.swift; sourceTree = "<group>"; };
+		876247FB28F2F75700E927E0 /* PruebaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PruebaViewController.swift; sourceTree = "<group>"; };
+		876247FD28F2F75700E927E0 /* PruebaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PruebaView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,9 @@
 		876247C428F2E86100E927E0 /* PruebaCombine */ = {
 			isa = PBXGroup;
 			children = (
+				876247F728F2F75700E927E0 /* Prueba */,
 				876247C528F2E86100E927E0 /* AppDelegate.swift */,
 				876247C728F2E86100E927E0 /* SceneDelegate.swift */,
-				876247C928F2E86100E927E0 /* ViewController.swift */,
-				876247CB28F2E86100E927E0 /* Main.storyboard */,
 				876247CE28F2E86300E927E0 /* Assets.xcassets */,
 				876247D028F2E86400E927E0 /* LaunchScreen.storyboard */,
 				876247D328F2E86400E927E0 /* Info.plist */,
@@ -125,6 +126,40 @@
 				876247E828F2E86400E927E0 /* PruebaCombineUITestsLaunchTests.swift */,
 			);
 			path = PruebaCombineUITests;
+			sourceTree = "<group>";
+		};
+		876247F728F2F75700E927E0 /* Prueba */ = {
+			isa = PBXGroup;
+			children = (
+				876247F828F2F75700E927E0 /* Models */,
+				876247FA28F2F75700E927E0 /* Controllers */,
+				876247FC28F2F75700E927E0 /* Views */,
+			);
+			path = Prueba;
+			sourceTree = "<group>";
+		};
+		876247F828F2F75700E927E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				876247F928F2F75700E927E0 /* PruebaViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		876247FA28F2F75700E927E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				876247FB28F2F75700E927E0 /* PruebaViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		876247FC28F2F75700E927E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				876247FD28F2F75700E927E0 /* PruebaView.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +268,7 @@
 			files = (
 				876247D228F2E86400E927E0 /* LaunchScreen.storyboard in Resources */,
 				876247CF28F2E86300E927E0 /* Assets.xcassets in Resources */,
-				876247CD28F2E86100E927E0 /* Main.storyboard in Resources */,
+				8762480028F2F75700E927E0 /* PruebaView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				876247CA28F2E86100E927E0 /* ViewController.swift in Sources */,
 				876247C628F2E86100E927E0 /* AppDelegate.swift in Sources */,
 				876247C828F2E86100E927E0 /* SceneDelegate.swift in Sources */,
+				876247FE28F2F75700E927E0 /* PruebaViewModel.swift in Sources */,
+				876247FF28F2F75700E927E0 /* PruebaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		876247CB28F2E86100E927E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				876247CC28F2E86100E927E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		876247D028F2E86400E927E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +470,6 @@
 				INFOPLIST_FILE = PruebaCombine/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,9 +479,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ismaelsabri.PruebaCombine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +500,6 @@
 				INFOPLIST_FILE = PruebaCombine/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,9 +509,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ismaelsabri.PruebaCombine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
