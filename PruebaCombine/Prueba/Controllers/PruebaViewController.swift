@@ -18,7 +18,8 @@ class PruebaViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var label: UILabel!
     
-    @Published var textFieldText: String?
+//    @Published var textFieldText: String?
+    var textFieldText: String?
     
     // MARK: - Public properties
     // MVC properties

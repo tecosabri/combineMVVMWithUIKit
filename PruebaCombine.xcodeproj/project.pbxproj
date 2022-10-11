@@ -17,6 +17,7 @@
 		876247FE28F2F75700E927E0 /* PruebaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876247F928F2F75700E927E0 /* PruebaViewModel.swift */; };
 		876247FF28F2F75700E927E0 /* PruebaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876247FB28F2F75700E927E0 /* PruebaViewController.swift */; };
 		8762480028F2F75700E927E0 /* PruebaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876247FD28F2F75700E927E0 /* PruebaView.xib */; };
+		877198FB28F5906500A7D685 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877198FA28F5906500A7D685 /* TextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		876247F928F2F75700E927E0 /* PruebaViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PruebaViewModel.swift; sourceTree = "<group>"; };
 		876247FB28F2F75700E927E0 /* PruebaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PruebaViewController.swift; sourceTree = "<group>"; };
 		876247FD28F2F75700E927E0 /* PruebaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PruebaView.xib; sourceTree = "<group>"; };
+		877198FA28F5906500A7D685 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				876247F828F2F75700E927E0 /* Models */,
 				876247FA28F2F75700E927E0 /* Controllers */,
 				876247FC28F2F75700E927E0 /* Views */,
+				877198FA28F5906500A7D685 /* TextFieldExtension.swift */,
 			);
 			path = Prueba;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				876247C628F2E86100E927E0 /* AppDelegate.swift in Sources */,
 				876247C828F2E86100E927E0 /* SceneDelegate.swift in Sources */,
 				876247FE28F2F75700E927E0 /* PruebaViewModel.swift in Sources */,
+				877198FB28F5906500A7D685 /* TextFieldExtension.swift in Sources */,
 				876247FF28F2F75700E927E0 /* PruebaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

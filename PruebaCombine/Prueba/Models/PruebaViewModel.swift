@@ -29,10 +29,13 @@ class PruebaViewModel {
     // MARK: - Lifecycle
     init(viewDelegate: PruebaViewController) {
         self.viewDelegate = viewDelegate
-        viewDelegate.$textFieldText.sink { text in
-            guard let text else { return }
-            self.textFieldValue = text
-        }.store(in: &cancellables) 
+//        viewDelegate.$textFieldText.sink { text in
+//            guard let text else { return }
+//            self.textFieldValue = text
+//        }.store(in: &cancellables)
+        viewDelegate.textField.textPublisher
+            .assign(to: \.textFieldValue, on: self)
+            .store(in: &cancellables)
     }
     
     // MARK: - Download bootcamps
