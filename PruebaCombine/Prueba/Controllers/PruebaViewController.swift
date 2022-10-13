@@ -32,10 +32,11 @@ class PruebaViewController: UIViewController {
         super.viewDidLoad()
         setViewModel()
         viewModel?.downloadBootcamps()
+        // Suscribes to the publisher $bootcamps. So that whenever bootcamps is modified, the viewController gets notified
         viewModel?.$bootCamps.sink(receiveValue: { value in
             self.label.text = value
-        }).store(in: &cancellables)
-        //        viewModel?.$bootCamps.assign(to: \.text, on: label)
+        }).store(in: &cancellables) // Very important to store the suscriptor!
+        //        viewModel?.$bootCamps.assign(to: \.text, on: label) // This is the same as above
         //            .store(in: &cancellables)
     }
     
